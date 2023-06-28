@@ -1,4 +1,4 @@
-# mock-landing-pages
+# landing-pages
 
 Collection of various landing pages using various technologies.
 
