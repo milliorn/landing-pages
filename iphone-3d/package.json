@@ -32,7 +32,7 @@
     "@types/webgi": "https://storage.googleapis.com/dist.pixotronics.com/webgi/runtime/bundle-types-0.5.5.tgz",
     "@vitejs/plugin-react": "^4.0.0",
     "cross-env": "^7.0.3",
-    "vite": "^4.3.5",
+    "vite": "^4.3.9",
     "webgi": "https://storage.googleapis.com/dist.pixotronics.com/webgi/runtime/bundle-0.5.5.tgz"
   }
 }
