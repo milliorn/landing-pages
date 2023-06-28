@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Styles */
+:root {
+  --primary-color: #e50914;
+  --dark-color: #141414;
+  --light-color: #f4f4f4;
+}
+
+* {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.showcase {
+  height: 95vh;
+  background: url("https://web.archive.org/web/20190227202846im_/https://assets.nflxext.com/ffe/siteui/vlv2/f5bc81fa-609b-4f1a-9992-93a82f1bb889/f552ebab-0cde-4bec-b039-ddf7f3123bf8/US-en-20170227-popsignuptwoweeks-perspective_alpha_website_medium.jpg")
+    no-repeat center center/cover;
+}
+
+.showcase::after {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
+}
+
+.showcase-top img {
+  transform: translate(-50%, -50%);
+}
+
+.showcase-top a {
+  transform: translate(-50%, -50%);
+}
+
+/* Tabs */
+.tab-border {
+  border-bottom: var(--primary-color) 4px solid;
+}
+
+/* Hide initial content */
+
+.show {
+  display: block !important;
+  opacity: 1 !important;
+  transition: all 1000 ease-in;
+}
+
+#tab-1-content .tab-1-content-inner {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#tab-2-content .tab-2-content-top {
+  grid-template-columns: 2fr 1fr;
+}
+
+.table {
+  border-spacing: 0;
+}
+
+.table tbody tr td:first-child {
+  text-align: left;
+}
+
+.table tbody tr:nth-child(odd) {
+  background: rgb(34, 34, 34);
+}
+
+.footer {
+  max-width: 75%;
+}
+
+.footer .footer-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* Text Styles */
+
+/* Buttons */
+.btn {
+  background: var(--primary-color);
+  transition: opacity 0.2s ease-in;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+}
+
+@media (max-width: 960px) {
+  .footer .footer-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 700px) {
+  .showcase::after {
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: inset 80px 80px 150px #000000, inset -80px -80px 150px #000000;
+  }
+
+  #tab-1-content .tab-1-content-inner {
+    grid-template-columns: 1fr;
+  }
+
+  #tab-2-content .tab-2-content-bottom {
+    grid-template-columns: 1fr;
+  }
+}
