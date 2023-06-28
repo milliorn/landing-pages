@@ -1,0 +1,51 @@
+{
+  "name": "travel-journal",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://milliorn.github.io/Travel-Journal",
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "4.8.0",
+    "react-scripts": "5.0.1",
+    "react-uuid": "2.0.0",
+    "typescript": "5.0.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "css-minify": "npx tailwindcss -o ./build/build.css --minify",
+    "css-update": "npm install -D tailwindcss@latest postcss@latest autoprefixer@latest",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "20.1.4",
+    "@types/react": "18.2.6",
+    "@types/react-dom": "18.2.4",
+    "autoprefixer": "10.4.14",
+    "gh-pages": "5.0.0",
+    "postcss": "8.4.23",
+    "tailwindcss": "3.3.2"
+  }
+}
