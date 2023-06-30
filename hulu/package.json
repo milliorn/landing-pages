@@ -15,7 +15,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-modal": "^3.16.1",
-    "typescript": "5.1.5",
+    "typescript": "5.1.6",
     "uuid": "^9.0.0"
   },
   "devDependencies": {
