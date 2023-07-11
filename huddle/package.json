@@ -1,14 +1,15 @@
 {
-  "name": "landing-page",
+  "name": "styled-components-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://milliorn.github.io/Starbucks-Landing-Page",
+  "homepage": "http://milliorn.github.io/styled-components-landing-page",
   "dependencies": {
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "cra-template": "1.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
     "react-scripts": "5.0.1",
-    "react-uuid": "2.0.0",
-    "typescript": "5.0.4"
+    "styled-components": "^5.3.10"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -37,12 +38,6 @@
     ]
   },
   "devDependencies": {
-    "@types/node": "20.1.4",
-    "@types/react": "18.2.14",
-    "@types/react-dom": "18.2.6",
-    "autoprefixer": "10.4.14",
-    "gh-pages": "5.0.0",
-    "postcss": "8.4.23",
-    "tailwindcss": "3.3.2"
+    "gh-pages": "^5.0.0"
   }
 }
