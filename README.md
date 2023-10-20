@@ -1,5 +1,7 @@
 # landing-pages
 
+[![CodeQL](https://github.com/milliorn/landing-pages/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/milliorn/landing-pages/actions/workflows/github-code-scanning/codeql)
+
 Collection of various landing pages using various technologies.
 
 Diverse and expansive library of dynamic landing pages that have been developed using various cutting-edge technologies. This curated collection showcases a wide range of landing pages, each designed to captivate and engage visitors effectively.
